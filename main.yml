@@ -3,8 +3,18 @@
 - hosts: localhost
   vars:
     homebrew_installed_packages:
-      - { name: vim, install_options: "override-system-vim" }
+      - coreutils
+      - git
+      - gnu-tar
+      - jq
+      - vim
       - nmap
+      - python
+      - python3
+      - ssh-copy-id
+      - tmux
+      - wget
+      - { name: macvim, install_options: "override-system-vim" }
   roles:
     - role: geerlingguy.homebrew
 

@@ -29,5 +29,5 @@
 5. Run ansible galaxy
 `ansible-galaxy install -r requirements.yml`
 6. Run ansible playbook
-`ansible-playbook main.yml`
+`ansible-playbook main.yml -K`
 

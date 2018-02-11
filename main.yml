@@ -18,7 +18,7 @@
       # - {name: macvim, install_options: "with-override-system-vim"}
     homebrew_cask_apps:
       - firefox
-      - chrome
+      - google-chrome
       - spotify
   roles:
     - role: homebrew

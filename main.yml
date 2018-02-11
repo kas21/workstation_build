@@ -16,7 +16,7 @@
       - wget
       - {name: macvim, install_options: "override-system-vim"}
   roles:
-    - role: geerlingguy.homebrew
+    - role: homebrew
 
 #  tasks:
 #    - name: Install MacVim

@@ -14,7 +14,7 @@
       - ssh-copy-id
       - tmux
       - wget
-      - {name: macvim, install_options: "override-system-vim"}
+      - {name: macvim, install_options: "with-override-system-vim"}
   roles:
     - role: homebrew
 
